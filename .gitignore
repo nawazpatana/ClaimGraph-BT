@@ -1,76 +1,25 @@
-# Python
-# Python environment
-.venv/
-venv/
-__pycache__/
-*.pyc
-.env
-
-# Large datasets
-data/
-datasets/
-*.zip
-
-# Trained models
-*.pt
-*.pth
-*.ckpt
-
-# Training outputs
-logs/
-results/
-checkpoints/
-runs/
-
-# IDE files
-.vscode/
-.idea/__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# Environments
-.venv/
-venv/
-env/
-
-# Models and checkpoints
-models/
-model/
-checkpoints/
-saved_models/
-*.pt
-*.pth
-*.bin
-*.safetensors
-*.ckpt
-*.h5
-*.onnx
-
-# Outputs and logs
-outputs/
-results/
-logs/
-*.log
-
-# Data files
-data/
-Data/
-*.csv
-*.jsonl
-*.parquet
-*.pkl
-*.npz
-
-# Cache
-.cache/
-huggingface/
-transformers_cache/
-runs/
-wandb/
-mlruns/
-
-.DS_Store
-
-# Local Python environments
+# Python environments
 .venv/
 .venv-ichesd/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store

@@ -1,0 +1,29 @@
+{
+  "task": "T3 Cross-Paper Claim Comparison",
+  "timestamp": "2026-06-04T08:51:13.596484",
+  "n_claims": 7564,
+  "n_structured_groups": 12,
+  "structured_eval": {
+    "method": "Structured Matching (task+dataset+metric)",
+    "n_clusters": 12,
+    "n_noise_points": 7534,
+    "total_points": 7564,
+    "silhouette_score": 0.0065954881720244884
+  },
+  "semantic_eval": {
+    "method": "Semantic Similarity (HDBSCAN)",
+    "n_clusters": 3,
+    "n_noise_points": 2122,
+    "total_points": 7564,
+    "silhouette_score": 0.19316144287586212
+  },
+  "precision_at_5": {
+    "structured": 0.02666666666666667,
+    "semantic": 0.9610069827269385
+  },
+  "precision_at_10": {
+    "structured": 0.023333333333333334,
+    "semantic": 0.9597941933112828
+  },
+  "adjusted_rand_index": -0.0014097280031913548
+}

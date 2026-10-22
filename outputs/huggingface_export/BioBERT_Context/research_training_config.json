@@ -1,0 +1,25 @@
+{
+  "best_run_name": "BioBERT_Context",
+  "base_model_name": "monologg/biobert_v1.1_pubmed",
+  "selection_metric": "test_macro_f1",
+  "metrics": {
+    "accuracy": "0.8393",
+    "macro_f1": "0.8356",
+    "claim_f1": "0.8110",
+    "claim_precision": "0.8304",
+    "claim_recall": "0.7924",
+    "auc": "0.9265",
+    "threshold": "0.6500",
+    "tn": 893,
+    "fp": 127,
+    "fn": 163,
+    "tp": 622
+  },
+  "claim_class_weight": 3.0,
+  "use_context": true,
+  "max_len": 256,
+  "epochs": 4,
+  "learning_rate": 2e-05,
+  "warmup_ratio": 0.1,
+  "export_date": "2026-05-12T02:55:39.938027"
+}

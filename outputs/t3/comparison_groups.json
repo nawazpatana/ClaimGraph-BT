@@ -1,0 +1,350 @@
+[
+  {
+    "comparison_group_id": "task=survival prediction&dataset=gbm patients&metric=survival",
+    "task": "survival prediction",
+    "dataset": "gbm patients",
+    "metric": "survival",
+    "n_claims": 6,
+    "leaderboard": [
+      {
+        "model": "A; 17; gene; prognostic; signature",
+        "value": null,
+        "papers": [
+          "10.1038/s41598-025-92867-z"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "We; identified; several; genes; and",
+        "value": null,
+        "papers": [
+          "10.3390/cancers17071122"
+        ],
+        "rank": 2
+      },
+      {
+        "model": "Collaborative; efforts; and; robust; clinical",
+        "value": null,
+        "papers": [
+          "10.1007/s10238-025-01631-0"
+        ],
+        "rank": 3
+      },
+      {
+        "model": "Epidermal; growth; factor; receptor; variant",
+        "value": null,
+        "papers": [
+          "10.1038/s41419-025-07771-1"
+        ],
+        "rank": 4
+      },
+      {
+        "model": "Conclusions; A; subgroup; of; GBM",
+        "value": null,
+        "papers": [
+          "10.1007/s11060-025-05162-2"
+        ],
+        "rank": 5
+      },
+      {
+        "model": "The; survival; analysis; revealed; that",
+        "value": null,
+        "papers": [
+          "10.1186/s40001-025-02306-y"
+        ],
+        "rank": 6
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=survival prediction&dataset=glioma patients&metric=survival",
+    "task": "survival prediction",
+    "dataset": "glioma patients",
+    "metric": "survival",
+    "n_claims": 4,
+    "leaderboard": [
+      {
+        "model": "In; summary; despite; its; retrospective",
+        "value": null,
+        "papers": [
+          "10.1038/s41598-025-95693-5"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "Results; We; identified; three; TEs",
+        "value": null,
+        "papers": [
+          "10.3390/biomedicines13051177"
+        ],
+        "rank": 2
+      },
+      {
+        "model": "Conclusion; Socioeconomic; and; lifestyle; factors",
+        "value": null,
+        "papers": [
+          "10.1007/s00701-025-06594-5"
+        ],
+        "rank": 3
+      },
+      {
+        "model": "The; nomogram; exhibited; excellent; performance",
+        "value": null,
+        "papers": [
+          "10.1007/s12672-025-03126-6"
+        ],
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=survival prediction&dataset=gbm patients&metric=survival; overall survival",
+    "task": "survival prediction",
+    "dataset": "gbm patients",
+    "metric": "survival; overall survival",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "MiR-1290; emerges; as; promising",
+        "value": null,
+        "papers": [
+          "10.1038/s41598-025-97855-x"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "Concordance; we; find; changes; in",
+        "value": null,
+        "papers": [
+          "10.1038/s41467-025-65681-4"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=risk association analysis&dataset=glioma cells&metric=expression",
+    "task": "risk association analysis",
+    "dataset": "glioma cells",
+    "metric": "expression",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "Our; results; demonstrate; that; miR-139-5p",
+        "value": null,
+        "papers": [
+          "10.1038/s41420-025-02532-7"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "TNFRSF12A; Knockdown; of; TNFRSF12A",
+        "value": null,
+        "papers": [
+          "10.1038/s41598-025-08000-7"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=correlation analysis&dataset=glioma tissues&metric=expression; correlation",
+    "task": "correlation analysis",
+    "dataset": "glioma tissues",
+    "metric": "expression; correlation",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "Clinically; we; observed; significant; inverse",
+        "value": null,
+        "papers": [
+          "10.1111/jcmm.70599"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "Clinical; studies; have; shown; that",
+        "value": null,
+        "papers": [
+          "10.2147/ijn.s547510"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=risk association analysis&dataset=glioma patients&metric=risk",
+    "task": "risk association analysis",
+    "dataset": "glioma patients",
+    "metric": "risk",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "The; augmentation; of; imaging-based",
+        "value": null,
+        "papers": [
+          "10.1038/s41698-025-00980-z"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "Conclusion; The; risk; of; intraoperative",
+        "value": null,
+        "papers": [
+          "10.2147/jbm.s493305"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=survival prediction&dataset=tcga; cgga&metric=survival",
+    "task": "survival prediction",
+    "dataset": "tcga; cgga",
+    "metric": "survival",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "The; AUCs; for; 1-; 3- and",
+        "value": null,
+        "papers": [
+          "10.1111/jcmm.70668"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "The; high-risk; group; had; significantly",
+        "value": null,
+        "papers": [
+          "10.1007/s12672-025-03459-2"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=survival prediction&dataset=glioma patients&metric=survival; overall survival",
+    "task": "survival prediction",
+    "dataset": "glioma patients",
+    "metric": "survival; overall survival",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "both; PFS; and; overall",
+        "value": null,
+        "papers": [
+          "10.1038/s41598-025-12346-3"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "Conclusions; These; results; suggest; that",
+        "value": null,
+        "papers": [
+          "10.1007/s13258-025-01666-3"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=prognosis prediction&dataset=glioblastoma patients&metric=expression",
+    "task": "prognosis prediction",
+    "dataset": "glioblastoma patients",
+    "metric": "expression",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "Results; We; have; characterized",
+        "value": null,
+        "papers": [
+          "10.1093/neuonc/noaf019"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "High; expression; of; this; variant",
+        "value": null,
+        "papers": [
+          "10.1002/acn3.70125"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=survival assessment&dataset=brain tumor patients&metric=survival",
+    "task": "survival assessment",
+    "dataset": "brain tumor patients",
+    "metric": "survival",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "These; innovative; translational; tools; will",
+        "value": null,
+        "papers": [
+          "10.3390/brainsci14121253"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "In; this; study; we; develop",
+        "value": null,
+        "papers": [
+          "10.1016/j.wneu.2018.06.052"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=segmentation&dataset=brats2020&metric=dice",
+    "task": "segmentation",
+    "dataset": "brats2020",
+    "metric": "dice",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "The; DSC; score; of; 0.8590",
+        "value": null,
+        "papers": [
+          "10.1016/s0959-8049(17)30235-6"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "Evaluated; on; the; BraTS2020",
+        "value": null,
+        "papers": [
+          "10.48550/arXiv.2507.00983"
+        ],
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "comparison_group_id": "task=survival prediction&dataset=glioma cells&metric=survival",
+    "task": "survival prediction",
+    "dataset": "glioma cells",
+    "metric": "survival",
+    "n_claims": 2,
+    "leaderboard": [
+      {
+        "model": "In; glioma; cells; but; not",
+        "value": null,
+        "papers": [
+          "10.3390/cancers16233934"
+        ],
+        "rank": 1
+      },
+      {
+        "model": "When; glioma; cells; were; grafted",
+        "value": null,
+        "papers": [
+          "10.1093/noajnl/vdaf010"
+        ],
+        "rank": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "train_file": "/work/Research/MedClaimExtractor/Data/Train-Dataset.jsonl",
+  "gold_file": "/work/Research/MedClaimExtractor/Data/golden.jsonl",
+  "train_claim_rows": 4172,
+  "train_papers": 1269,
+  "golden_claim_rows": 1484,
+  "golden_papers": 316,
+  "gold_val_rows": 736,
+  "gold_val_papers": 158,
+  "gold_test_rows": 748,
+  "gold_test_papers": 158,
+  "seed": 42,
+  "gold_val_ratio": 0.5
+}

@@ -1,0 +1,233 @@
+{
+  "model_dir": "/work/Research/MedClaimExtractor/models/t2/best_model",
+  "train_file": "/work/Research/MedClaimExtractor/Data/Train-Dataset.jsonl",
+  "gold_file": "/work/Research/MedClaimExtractor/Data/golden.jsonl",
+  "best_val_macro_presence_f1": 0.5056053860178006,
+  "best_record": {
+    "epoch": 2,
+    "train_loss": 0.6744581235075429,
+    "gold_val_loss": 0.8487380979501683,
+    "gold_val_macro_presence_f1": 0.5056053860178006,
+    "gold_val_json_exact_match_accuracy": 0.0,
+    "gold_val_macro_non_null_exact_accuracy": 0.04847511041671303
+  },
+  "overall_table": [
+    {
+      "Metric": "Overall exact match",
+      "Validation": 0.0,
+      "Test": 0.001336898395721925
+    },
+    {
+      "Metric": "Macro presence F1",
+      "Validation": 0.5056053860178006,
+      "Test": 0.5202106187721853
+    },
+    {
+      "Metric": "Macro field accuracy",
+      "Validation": 0.4283773291925466,
+      "Test": 0.42818945760122235
+    },
+    {
+      "Metric": "Macro non-null exact accuracy",
+      "Validation": 0.04847511041671303,
+      "Test": 0.05057066002995414
+    }
+  ],
+  "test_accuracy_table": [
+    {
+      "Field": "Model",
+      "Exact Match": 0.004010695187165776,
+      "Non-Null Accuracy": 0.011673151750972763,
+      "Null Accuracy": 0.0
+    },
+    {
+      "Field": "Task",
+      "Exact Match": 0.25,
+      "Non-Null Accuracy": 0.024489795918367346,
+      "Null Accuracy": 0.6782945736434108
+    },
+    {
+      "Field": "Dataset",
+      "Exact Match": 0.7312834224598931,
+      "Non-Null Accuracy": 0.03896103896103896,
+      "Null Accuracy": 0.9107744107744108
+    },
+    {
+      "Field": "Metric",
+      "Exact Match": 0.31283422459893045,
+      "Non-Null Accuracy": 0.09205020920502092,
+      "Null Accuracy": 0.7037037037037037
+    },
+    {
+      "Field": "Value",
+      "Exact Match": 0.7366310160427807,
+      "Non-Null Accuracy": 0.04597701149425287,
+      "Null Accuracy": 0.945993031358885
+    },
+    {
+      "Field": "Comparison",
+      "Exact Match": 0.5481283422459893,
+      "Non-Null Accuracy": 0.012422360248447204,
+      "Null Accuracy": 0.9530516431924883
+    },
+    {
+      "Field": "Domain",
+      "Exact Match": 0.4144385026737968,
+      "Non-Null Accuracy": 0.12842105263157894,
+      "Null Accuracy": 0.9120879120879121
+    }
+  ],
+  "test_precision_recall_f1_table": [
+    {
+      "Field": "Model",
+      "Accuracy": 0.004010695187165776,
+      "Precision": 0.34358288770053474,
+      "Recall": 1.0,
+      "F1": 0.5114427860696518
+    },
+    {
+      "Field": "Task",
+      "Accuracy": 0.25,
+      "Precision": 0.7046263345195729,
+      "Recall": 0.40408163265306124,
+      "F1": 0.5136186770428015
+    },
+    {
+      "Field": "Dataset",
+      "Accuracy": 0.7312834224598931,
+      "Precision": 0.3764705882352941,
+      "Recall": 0.2077922077922078,
+      "F1": 0.26778242677824265
+    },
+    {
+      "Field": "Metric",
+      "Accuracy": 0.31283422459893045,
+      "Precision": 0.7173144876325088,
+      "Recall": 0.4246861924686193,
+      "F1": 0.533508541392904
+    },
+    {
+      "Field": "Value",
+      "Accuracy": 0.7366310160427807,
+      "Precision": 0.7947019867549668,
+      "Recall": 0.6896551724137931,
+      "F1": 0.7384615384615384
+    },
+    {
+      "Field": "Comparison",
+      "Accuracy": 0.5481283422459893,
+      "Precision": 0.8290598290598291,
+      "Recall": 0.30124223602484473,
+      "F1": 0.4419134396355353
+    },
+    {
+      "Field": "Domain",
+      "Accuracy": 0.4144385026737968,
+      "Precision": 0.90625,
+      "Recall": 0.4884210526315789,
+      "F1": 0.6347469220246238
+    }
+  ],
+  "golden_validation_overall": {
+    "split": "golden_validation",
+    "examples": 736,
+    "json_exact_match_accuracy": 0.0,
+    "macro_field_accuracy": 0.4283773291925466,
+    "macro_field_f1_exists": 0.5056053860178006,
+    "macro_non_null_exact_accuracy": 0.04847511041671303
+  },
+  "golden_test_overall": {
+    "split": "golden_test",
+    "examples": 748,
+    "json_exact_match_accuracy": 0.001336898395721925,
+    "macro_field_accuracy": 0.42818945760122235,
+    "macro_field_f1_exists": 0.5202106187721853,
+    "macro_non_null_exact_accuracy": 0.05057066002995414
+  },
+  "golden_test_field_metrics_full": [
+    {
+      "field": "model",
+      "accuracy": 0.004010695187165776,
+      "precision_field_exists": 0.34358288770053474,
+      "recall_field_exists": 1.0,
+      "f1_field_exists": 0.5114427860696518,
+      "null_accuracy": 0.0,
+      "non_null_exact_accuracy": 0.011673151750972763,
+      "gold_non_null_count": 257,
+      "pred_non_null_count": 748,
+      "total_examples": 748
+    },
+    {
+      "field": "task",
+      "accuracy": 0.25,
+      "precision_field_exists": 0.7046263345195729,
+      "recall_field_exists": 0.40408163265306124,
+      "f1_field_exists": 0.5136186770428015,
+      "null_accuracy": 0.6782945736434108,
+      "non_null_exact_accuracy": 0.024489795918367346,
+      "gold_non_null_count": 490,
+      "pred_non_null_count": 281,
+      "total_examples": 748
+    },
+    {
+      "field": "dataset",
+      "accuracy": 0.7312834224598931,
+      "precision_field_exists": 0.3764705882352941,
+      "recall_field_exists": 0.2077922077922078,
+      "f1_field_exists": 0.26778242677824265,
+      "null_accuracy": 0.9107744107744108,
+      "non_null_exact_accuracy": 0.03896103896103896,
+      "gold_non_null_count": 154,
+      "pred_non_null_count": 85,
+      "total_examples": 748
+    },
+    {
+      "field": "metric",
+      "accuracy": 0.31283422459893045,
+      "precision_field_exists": 0.7173144876325088,
+      "recall_field_exists": 0.4246861924686193,
+      "f1_field_exists": 0.533508541392904,
+      "null_accuracy": 0.7037037037037037,
+      "non_null_exact_accuracy": 0.09205020920502092,
+      "gold_non_null_count": 478,
+      "pred_non_null_count": 283,
+      "total_examples": 748
+    },
+    {
+      "field": "value",
+      "accuracy": 0.7366310160427807,
+      "precision_field_exists": 0.7947019867549668,
+      "recall_field_exists": 0.6896551724137931,
+      "f1_field_exists": 0.7384615384615384,
+      "null_accuracy": 0.945993031358885,
+      "non_null_exact_accuracy": 0.04597701149425287,
+      "gold_non_null_count": 174,
+      "pred_non_null_count": 151,
+      "total_examples": 748
+    },
+    {
+      "field": "comparison",
+      "accuracy": 0.5481283422459893,
+      "precision_field_exists": 0.8290598290598291,
+      "recall_field_exists": 0.30124223602484473,
+      "f1_field_exists": 0.4419134396355353,
+      "null_accuracy": 0.9530516431924883,
+      "non_null_exact_accuracy": 0.012422360248447204,
+      "gold_non_null_count": 322,
+      "pred_non_null_count": 117,
+      "total_examples": 748
+    },
+    {
+      "field": "domain",
+      "accuracy": 0.4144385026737968,
+      "precision_field_exists": 0.90625,
+      "recall_field_exists": 0.4884210526315789,
+      "f1_field_exists": 0.6347469220246238,
+      "null_accuracy": 0.9120879120879121,
+      "non_null_exact_accuracy": 0.12842105263157894,
+      "gold_non_null_count": 475,
+      "pred_non_null_count": 256,
+      "total_examples": 748
+    }
+  ]
+}
