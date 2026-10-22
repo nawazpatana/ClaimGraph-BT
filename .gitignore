@@ -70,3 +70,7 @@ wandb/
 mlruns/
 
 .DS_Store
+
+# Local Python environments
+.venv/
+.venv-ichesd/
