@@ -1,5 +1,30 @@
 # Python
+# Python environment
+.venv/
+venv/
 __pycache__/
+*.pyc
+.env
+
+# Large datasets
+data/
+datasets/
+*.zip
+
+# Trained models
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+logs/
+results/
+checkpoints/
+runs/
+
+# IDE files
+.vscode/
+.idea/__pycache__/
 *.pyc
 .ipynb_checkpoints/
 
